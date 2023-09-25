@@ -1,5 +1,5 @@
 
-/* возможно надо перенести в nullStyle.css 
+/* возможно надо перенести в nullStyle.css
 a, a:focus, a:active{
   color:inherit;
 }
@@ -14,7 +14,7 @@ a, a:focus, a:active{
   overflow: auto; /* это чтобы использовать margin-top для отступа у дочерних сверху */
   color: #122947;
   font-size: 16rem;
-  font-family: 'Mplus 1p-maroon';
+  font-family: 'Mplus 1p-maroon', sans-serif;
   font-weight: 400;
 }
 .footer__menu{
@@ -66,7 +66,7 @@ a, a:focus, a:active{
   display: flex;
   justify-content: space-between;
 }
-/* 
+/*
 .bottom-line__copyright{}
-.bottom-line__privacy-policy{} 
+.bottom-line__privacy-policy{}
 */
