@@ -1,0 +1,34 @@
+:root {
+  --contentInnerPadX: 5px;
+  --containerW: calc(1171px + 2*var(--contentInnerPadX)) ;
+
+  /* --transTime: 0.3s; */
+  /* --bgColor1: #636363; */
+}
+
+html{
+  /* font-size: 1px; */
+  /* 0.115  => 870px критическая ширина, дальше уменьшать  
+  в этой точке  к * (870/100) = 1 => к = 100/870 = 0.115
+  до 500 вроде норм.
+  */ 
+  font-size:clamp(0.55px, 0.115vw, 1px);
+}
+/* body{
+} */
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--contentInnerPadX);
+  max-width: var(--containerW);
+
+  min-height: 1vh;
+  position: relative;
+}
+
+header{
+  min-height: 10vh;
+}
+main{
+  min-height: 10vh;
+}

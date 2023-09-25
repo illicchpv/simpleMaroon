@@ -1,0 +1,72 @@
+
+/* возможно надо перенести в nullStyle.css 
+a, a:focus, a:active{
+  color:inherit;
+}
+*/
+.footer a, a:focus, a:active{
+  color:inherit;
+}
+
+.footer{
+  padding-bottom: 22REM;
+  background-color:  #F4F1ED;
+  overflow: auto; /* это чтобы использовать margin-top для отступа у дочерних сверху */
+  color: #122947;
+  font-size: 16rem;
+  font-family: 'Mplus 1p-maroon';
+  font-weight: 400;
+}
+.footer__menu{
+  margin-top: 60rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu-img{
+  flex-basis: 131rem;
+  flex-shrink: 0;
+}
+.footer__menu-nav{
+  display: flex;
+  align-items: center;
+  gap: 69rem;
+}
+.footer__menu-nav-list{
+  display: flex;
+  gap: 69rem;
+}
+.footer__menu-social{
+  display: flex;
+  flex-shrink: 0;
+  gap: 40rem;
+}
+.footer__menu-social img{
+  height: 20rem;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+}
+.line_footer{
+  background-color: #D1D1D1;
+  margin-top: 64rem;
+}
+
+.circle-c{
+  height: 14rem;
+}
+
+.bottom-line{
+  margin-top: 22rem;
+  color: #959595;
+  font-size: 12rem;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+}
+/* 
+.bottom-line__copyright{}
+.bottom-line__privacy-policy{} 
+*/
