@@ -1,12 +1,15 @@
-.footer a, a:focus, a:active{
+/* возможно надо перенести в nullStyle.css
+a, a:focus, a:active{
+  color:inherit;
+}
+*/
+.contacts a, a:focus, a:active{
     color:inherit;
 }
 
 .contacts{
     position: relative;
     overflow: auto;
-
-    margin-bottom: 20rem;
 
     font-family: 'Mplus 1p-maroon', sans-serif;
     font-weight: 400;

@@ -9,7 +9,8 @@ a, a:focus, a:active{
 }
 
 .footer{
-  padding-bottom: 22REM;
+  margin-top: 140rem;
+  padding-bottom: 22rem;
   background-color:  #F4F1ED;
   overflow: auto; /* это чтобы использовать margin-top для отступа у дочерних сверху */
   color: #122947;

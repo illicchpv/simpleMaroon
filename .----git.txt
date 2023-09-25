@@ -42,6 +42,14 @@ git push origin название новой ветк
 git remote add upstream https://github.com/TeleginDmitry/Maroon.git
 git fetch upstream - это команда даёт тебе последние изменения в оригинальном проекте
 
+====================================================================================
+github  fork
+
+git remote add upstream https://github.com/trenersambo/test.git
+
+git remote set-url origin https://github.com/trenersambo/test.git
+
+git pull origin [main]
 ======================================
 
 Дмитрий Телегин, [25.09.2023 7:36]
