@@ -1,0 +1,71 @@
+.footer a, a:focus, a:active{
+    color:inherit;
+}
+
+.contacts{
+    position: relative;
+    overflow: auto;
+
+    margin-bottom: 20rem;
+
+    font-family: 'Mplus 1p-maroon', sans-serif;
+    font-weight: 400;
+    color: #122947;
+}
+.contacts__left-bg{
+    width: 57.2%;
+    height: 100%;
+    background-color:#F4F1ED;
+
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.contacts__inner-box{
+    margin-top: 50rem;
+    margin-bottom: 50rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contacts__inner-left{
+    margin-top: 34rem;
+    margin-left: 100rem;
+}
+.contacts__inner-left h2{
+    font-size: 32rem;
+    font-family: 'Raleway-maroon', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+.contacts__inner-left h3{
+    margin-top: 35rem;
+    font-size: 18rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.contacts__inner-left h3:nth-child(2){
+    margin-top: 40rem;
+}
+.contacts__inner-left p{
+    margin-top: 20rem;
+    font-size: 18rem;
+    line-height: 1.45;
+}
+
+.contacts__social{
+    margin-top: 35rem;
+    margin-bottom: 34rem;
+    display: flex;
+    gap: 30rem;
+}
+.contacts__social img{
+    height: 20rem;
+}
+
+.contacts__inner-right{
+    flex-basis: 57.2%;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
