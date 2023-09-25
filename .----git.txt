@@ -1,0 +1,58 @@
+Ребята, когда кто то делает изменения в git hub проекте,
+обязательно каждый перед новой задачей после создания ветки для вашей новой задачи, нужно сделать вот такую команду - git pull origin main
+
+ведь этой командой
+
+git pull origin main
+
+я могу обновляться из-под любой ветки (я сижу в своей ветке clear, и из нее же шлю  - git pull origin main)
+
+
+
+я прав? или мне лучше пер
+
+Нет, оставайся в своей ветки clear и выполняй эту команду
+
+выполни команду - git remote add upstream https://github.com/TeleginDmitry/Maroon.git
+------------------------------------------
+
+потом эти
+git fetch upstream
+git merge upstream/main
+
+
+и вот эту
+
+git push origin main
+
+git fetch upstream - это команда даёт тебе последние изменения в оригинальном проекте
+
+git merge upstream/main - эта команда сделает мёрж, то есть
+    обьединение главной ветки main в ориг репозитории
+
+потом когда фичу свою сделал в новой ветки, ты выполняешь вот такую команду
+git push origin название новой ветк
+
+на гит хабе уже принимаешь пул реквест
+
+И потом создаёшь пул реквест со своей веткой
+
+======================================
+
+git remote add upstream https://github.com/TeleginDmitry/Maroon.git
+git fetch upstream - это команда даёт тебе последние изменения в оригинальном проекте
+
+======================================
+
+Дмитрий Телегин, [25.09.2023 7:36]
+Попробуй выполни по очереди эти две команды
+git remote set-url origin https://github.com/TeleginDmitry/Maroon.git
+git pull origin main
+
+=======================================
+https://www.youtube.com/watch?v=1upalKiDeEI&t=10s
+	Уроки Git+GitHub - Как сделать Fork и Pull Request и что это такое
+
+https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
+	Git Forks and Upstreams: How-to and a cool tip
+
