@@ -1,0 +1,44 @@
+/* возможно надо перенести в nullStyle.css
+a, a:focus, a:active{
+  color:inherit;
+}
+*/
+.skin-care a, a:focus, a:active{
+    color:inherit;
+}
+
+.container-ex_skin-care{
+    background-image: url(../img/banner-skin-care.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.skin-care{
+    margin-top: 140rem;
+    overflow: auto;    
+
+    color: #122947;
+    font-family: 'Mplus 1p-maroon', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skin-care__text{
+    margin-top: 120rem;
+    text-align: center;
+
+    font-size: 32rem;
+    font-family: 'Raleway-maroon', sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.button-link_skin-care{
+    margin-top: 63rem;
+    margin-bottom: 120rem;
+    font-size: 16rem;
+    font-weight: 500;
+    line-height: 1.7;
+}

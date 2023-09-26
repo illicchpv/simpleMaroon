@@ -12,7 +12,12 @@ html{
   в этой точке  к * (870/100) = 1 => к = 100/870 = 0.115
   до 500 вроде норм.
   */ 
-  font-size:clamp(0.55px, 0.115vw, 1px);
+   /* font-size: clamp(0.55px, 0.115vw, 1px); */
+   /* поменял точку начала уменьшения на 1100
+   в этой точке  к * (1100/100) = 1 => к = 100/1100 = 0.09
+   до 540 вроде работает. дальше надо медиа
+    */
+  font-size: clamp(0.55px, calc(100vw/1100), 1px);
 }
 /* body{
 } */
@@ -26,9 +31,22 @@ html{
   position: relative;
 }
 
+.container-ex {
+  min-height: 1vh;
+  position: relative;
+  width: 100%;
+}
+
 header{
   min-height: 10vh;
 }
 main{
   min-height: 10vh;
+}
+
+/* blocks */
+.button-link{
+  display: inline-block;
+  padding: 13rem 33rem 16rem 33rem;
+  border: 1px solid #B3BAC1;
 }

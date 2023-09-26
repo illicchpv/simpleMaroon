@@ -43,11 +43,6 @@ a, a:focus, a:active{
     line-height: 1.45;    
 }
 
-.button-link{
-    display: inline-block;
-    padding: 13rem 33rem 16rem 33rem;
-    border: 1px solid #B3BAC1;
-}
 .button-link_join-us{
     margin-top: 40rem;
 }

@@ -1,0 +1,76 @@
+/* возможно надо перенести в nullStyle.css
+a, a:focus, a:active{
+  color:inherit;
+}
+*/
+.icare a, a:focus, a:active{
+    color:inherit;
+}
+
+.icare{
+    margin-top: 140rem;
+    
+    position: relative;
+    overflow: auto;
+
+    font-family: 'Mplus 1p-maroon', sans-serif;
+    font-weight: 400;
+    color: #122947;
+}
+.icare-bg{
+    width: 57.2%;
+    height: 100%;
+    background-color:#F4F1ED;
+
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.icare__left-bg{
+    width: 57.2%;
+    height: 100%;
+    background-color:#F4F1ED;
+
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.icare__inner-box{
+    margin-top: 66rem;
+    margin-bottom: 66rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icare__inner-left{
+    margin-top: 34rem;
+    margin-left: 100rem;
+    padding-right: var(--contentInnerPadX);
+}
+.icare__inner-left h2{
+    font-size: 32rem;
+    font-family: 'Raleway-maroon', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+.icare__inner-left p{
+    margin-top: 20rem;
+    font-size: 18rem;
+    line-height: 1.45;
+    max-width: 329rem;
+}
+
+.icare__inner-right{
+    flex-basis: 57.2%;
+    background-image: url(../img/individual-care.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-link_icare{
+    margin-top: 45rem;
+    margin-bottom: 100rem;
+    font-size: 16rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
