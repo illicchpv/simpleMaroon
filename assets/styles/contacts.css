@@ -8,6 +8,8 @@ a, a:focus, a:active{
 }
 
 .contacts{
+    margin-top: 140rem;
+    
     position: relative;
     overflow: auto;
 
