@@ -64,6 +64,27 @@ https://www.youtube.com/watch?v=1upalKiDeEI&t=10s
 https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
 	Git Forks and Upstreams: How-to and a cool tip
 
+======================= настройки
+настройки проекта
+  в файле [you project]\.git\config
+
+настройки пользователя
+  посмотреть
+    git config --list
+  поменять
+    git config user.name "you name"
+    git config user.email "you@email.com"
+  находятся в 
+    cd c:\Users\Pavel\.gitconfig
+    
+системные настройки
+  посмотреть
+    git config --list --global
+  пшменять
+    git config --global user.name "you name"
+    git config --global user.email "you@email.com"
+  находятся в
+    cd "c:\Program Files\Git\etc\gitconfig"
 
 
 ======================= fork
