@@ -64,3 +64,31 @@ https://www.youtube.com/watch?v=1upalKiDeEI&t=10s
 https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
 	Git Forks and Upstreams: How-to and a cool tip
 
+
+
+======================= fork
+=делаем fork на репозитории источнике. получаем клом в своём акк gitHUB (наш реп) https://github.com/TeleginDmitry/illich.git
+= клонируем его на локал
+>git clone https://github.com/illich/Maroon.git
+=устанавливаем связи с исходным
+>git remote add upstream https://github.com/TeleginDmitry/Maroon.git
+>git remote set-url origin https://github.com/TeleginDmitry/Maroon.git
+>git remote -v
+  origin  https://github.com/TeleginDmitry/Maroon.git (fetch)
+  origin  https://github.com/TeleginDmitry/Maroon.git (push)
+  upstream        https://github.com/TeleginDmitry/Maroon.git (fetch)
+  upstream        https://github.com/TeleginDmitry/Maroon.git (push)
+
+= создаём ветку и в ней делаеи необходимые изменения
+...
+= синхронизируем изменения в родительском реп. со своими.
+>git pull origin [main]
+= проверяем и корректируем в нашем реп. свои изменения
+...
+= в своём github делаем pull request
+....
+??? git fetch upstream
+??? git pull origin main
+>git pull origin [main]
+
+
