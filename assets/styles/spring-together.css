@@ -1,0 +1,41 @@
+
+.container-ex_spring-together{
+    background-image: url(../img/banner-spring-together.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.spring-together{
+    overflow: auto;
+    color: #122947;
+}
+.spring-together__right-block{
+    margin-top: 81rem;
+    margin-left: 42.8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spring-together__right-block-container{
+    max-width: 284rem;
+}
+.spring-together h2{
+    font-size: 32rem;
+    font-family: 'Raleway-maroon', sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.spring-together p{
+    margin-top: 30rem;
+    font-size: 18rem;
+    font-family: 'Mplus 1p-maroon', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.button-link_spring-together{
+    margin-top: 40rem;
+    margin-bottom: 81rem;
+}

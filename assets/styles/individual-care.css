@@ -1,11 +1,3 @@
-/* возможно надо перенести в nullStyle.css
-a, a:focus, a:active{
-  color:inherit;
-}
-*/
-.icare a, a:focus, a:active{
-    color:inherit;
-}
 
 .icare{
     margin-top: 140rem;
@@ -70,7 +62,4 @@ a, a:focus, a:active{
 .button-link_icare{
     margin-top: 45rem;
     margin-bottom: 100rem;
-    font-size: 16rem;
-    font-weight: 500;
-    line-height: 1.7;
 }

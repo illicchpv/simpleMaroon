@@ -1,13 +1,4 @@
 
-/* возможно надо перенести в nullStyle.css
-a, a:focus, a:active{
-  color:inherit;
-}
-*/
-.footer a, a:focus, a:active{
-  color:inherit;
-}
-
 .footer{
   margin-top: 140rem;
   padding-bottom: 22rem;
