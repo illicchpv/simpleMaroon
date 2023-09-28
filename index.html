@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./swiper.css">
+
   <link rel="stylesheet" href="./assets/styles/mixins.css">
 
 </head>
@@ -21,6 +25,56 @@
   <main>
     <div class="container">
       <h1>Test main block</h1>
+    </div>
+
+    <!-- best-gallery   -->
+    <div class="container">
+      <section class="best-gallery">
+        <div class="best-gallery__left-block">
+          <h2>Бестселлеры</h2>
+          <p>
+            Легендарные продукты,
+            завоевавшие любовь
+            наших клиентов
+          </p>
+          <a class="button-link button-link_best-gallery" href="">Смотреть все</a>
+        </div>
+
+        <div class="best-gallery__slider-container">
+          <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, earum laboriosam. Alias, dolores. Animi mollitia quidem itaque ex voluptates impedit deleniti est sed voluptate perspiciatis fugiat, ratione consequuntur distinctio velit. -->
+          <!-- Lorem, ipsum dolor -->
+
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_1.jpg);">
+                <h3>High</h3>
+                <p>крем для лица</p>
+                <a href="#">Подробнее</a>
+              </div>
+              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_2.jpg);">
+                <h3>Rest</h3>
+                <p>минеральная пудра</p>
+                <a href="#">Подробнее</a>
+              </div>
+              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_3.jpg);">
+                <h3>Rose</h3>
+                <p>крем для лица</p>
+                <a href="#">Подробнее</a>
+              </div>
+              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_4.jpg);">
+                <h3>Milk</h3>
+                <p>масло для тела</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrows">
+          <a href="#"><img class="arr-left" src="./assets/icons/arr-left.svg" alt=""></a>
+          <a href="#"><img class="arr-right" src="./assets/icons/arr-right.svg" alt=""></a>
+        </div>
+
+      </section>
     </div>
 
     <!-- banner spring-together -->
@@ -192,13 +246,12 @@
       </div>
     </div>
 
-
-
-
-
-
-
   </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="swiper.js"></script>
+
 </body>
 
 </html>
