@@ -1,14 +1,14 @@
 .arrows {
     position: absolute;
-    top: 330px;
+    top: 330rem;
     right: 0;
 }
 .arr-left {
-    width: 26px;
-    margin-right: 32px;
+    width: 26rem;
+    margin-right: 32rem;
 }
 .arr-right {
-    width: 26px;
+    width: 26rem;
 }
 .arrows img.swiper-button-disabled {
     opacity: 0.3;
