@@ -22,6 +22,10 @@ html{
 /* body{
 } */
 
+a, a:focus, a:active{
+  color:inherit;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 var(--contentInnerPadX);
@@ -47,6 +51,11 @@ main{
 /* blocks */
 .button-link{
   display: inline-block;
-  padding: 13rem 33rem 16rem 33rem;
+  padding: 12rem 24rem;
   border: 1px solid #B3BAC1;
+
+  font-family: 'Mplus 1p-maroon', sans-serif;
+  font-size: 16rem;
+  font-weight: 500;
+  line-height: 1.7;
 }

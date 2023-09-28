@@ -1,0 +1,100 @@
+ElenaNovozilova
+ElenaNov1962@mail.ru
+
+git config --global user.name "ElenaNovozilova"
+git config --global user.email "ElenaNov1962@mail.ru"
+
+//git config user.name "ElenaNovozilova"
+//git config user.email "ElenaNov1962@mail.ru"
+
+=переходим в сорс https://github.com/illicchpv/simpleMaroon
+=[форк] Create a new fork forkSimpleMaroon
+---For security reasons, you cannot change the visibility of a fork.! = settings /Danger Zone / Change repository visibility 
+=[code] copy code
+=VSC terminal
+>git clone https://github.com/elenaNovozilova/forkSimpleMaroon.git
+=устанавливаем связи с исходным
+>git remote add upstream https://github.com/illicchpv/simpleMaroon
+>git remote set-url origin https://github.com/illicchpv/simpleMaroon
+> git remote -v
+	origin  https://github.com/illicchpv/simpleMaroon (fetch)
+	origin  https://github.com/illicchpv/simpleMaroon (push)
+	upstream        https://github.com/illicchpv/simpleMaroon (fetch)
+	upstream        https://github.com/illicchpv/simpleMaroon (push)
+=редактируем ... add connit push
+== браузер спрашивает логин 
+== изменения попадают на свой гитхаб
+=редактируем ... add connit push
+== изменения попадают на свой гитхаб
+<< на исходном появляются изменения в ветке master
+= забираем изменения с исходного
+git fetch upstream
+?? >git pull origin master // git pull origin main
+= решием конфликты // если есть
+>git push https://github.com/elenaNovozilova/forkSimpleMaroon.git
+
+
+
+
+
+
+
+=[pull request] [new pull request]
+
+
+
+githubLocalProjects 
+	forkSimpleMaroon
+
+
+IllichPV
+illicchpv
+
+======================= настройки
+настройки проекта
+  в файле [you project]\.git\config
+
+настройки пользователя
+  посмотреть
+    git config --list
+  поменять
+    git config user.name "you name"
+    git config user.email "you@email.com"
+  находятся в 
+    cd c:\Users\Pavel\.gitconfig
+    
+системные настройки
+  посмотреть
+    git config --list --global
+  пшменять
+    git config --global user.name "you name"
+    git config --global user.email "you@email.com"
+  находятся в
+    cd "c:\Program Files\Git\etc\gitconfig"
+
+
+======================= fork
+=делаем fork на репозитории источнике. получаем клом в своём акк gitHUB (наш реп) https://github.com/TeleginDmitry/illich.git
+= клонируем его на локал
+>git clone https://github.com/illich/Maroon.git
+=устанавливаем связи с исходным
+>git remote add upstream https://github.com/TeleginDmitry/Maroon.git
+>git remote set-url origin https://github.com/TeleginDmitry/Maroon.git
+>git remote -v
+  origin  https://github.com/TeleginDmitry/Maroon.git (fetch)
+  origin  https://github.com/TeleginDmitry/Maroon.git (push)
+  upstream        https://github.com/TeleginDmitry/Maroon.git (fetch)
+  upstream        https://github.com/TeleginDmitry/Maroon.git (push)
+
+= создаём ветку и в ней делаеи необходимые изменения
+...
+= синхронизируем изменения в родительском реп. со своими.
+> git pull origin master //git pull origin [main]
+= проверяем и корректируем в нашем реп. свои изменения
+...
+= в своём github делаем pull request
+....
+??? git fetch upstream
+??? git pull origin main
+>git pull origin [main]
+

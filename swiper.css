@@ -1,0 +1,15 @@
+.arrows {
+    position: absolute;
+    top: 330px;
+    right: 0;
+}
+.arr-left {
+    width: 26px;
+    margin-right: 32px;
+}
+.arr-right {
+    width: 26px;
+}
+.arrows img.swiper-button-disabled {
+    opacity: 0.3;
+}

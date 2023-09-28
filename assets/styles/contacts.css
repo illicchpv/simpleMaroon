@@ -1,11 +1,3 @@
-/* возможно надо перенести в nullStyle.css
-a, a:focus, a:active{
-  color:inherit;
-}
-*/
-.contacts a, a:focus, a:active{
-    color:inherit;
-}
 
 .contacts{
     margin-top: 140rem;
