@@ -6,8 +6,6 @@
 }
 
 .about{
-    padding-top: 130rem;
-    padding-bottom: 70rem;
     padding: 130rem var(--contentInnerPadX) 70rem;
 
     display: flex;
