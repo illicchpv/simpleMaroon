@@ -1,0 +1,48 @@
+.about{
+    margin-top: 70rem;
+    display: flex;
+    justify-content: center;
+    gap: 48rem;
+    color: #122947;
+    font-family: 'Mplus 1p-maroon', sans-serif;
+}
+.about__image-block{
+    max-width: 330rem;
+}
+.about__text-block{
+    padding-top: 60rem;
+    text-align: center;
+}
+.about__text-block h1{
+    font-family: 'Raleway-maroon', sans-serif;
+    font-size: 58rem;
+    font-weight: 500;
+}
+.about__text-block p{
+    margin-top: 30rem;
+    font-size: 18rem;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.about__link{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16rem;
+    font-weight: 500;
+    /*line-height: 1.40;*/
+}
+/*.about__link a{*/
+/*    display: inline-block;*/
+/*}*/
+.about__link img{
+    /*width: 26rem;*/
+    height: 12rem;
+    margin-top: 3rem;
+}
+.button-link_about{
+    margin-top: 40rem;
+}
