@@ -1,5 +1,15 @@
+.container-ex_about{
+  background-image: url(../img/bg-about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .about{
-    margin-top: 70rem;
+    padding-top: 130rem;
+    padding-bottom: 70rem;
+    padding: 130rem var(--contentInnerPadX) 70rem;
+
     display: flex;
     justify-content: center;
     gap: 48rem;

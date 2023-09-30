@@ -1,0 +1,31 @@
+.header{
+  color: #122947;
+  font-size: 16rem;
+  font-family: 'Mplus 1p-maroon', sans-serif;
+  font-weight: 400;
+}
+
+.header__menu{
+  position: absolute;
+  width: calc(100% - 2*var(--contentInnerPadX) );
+  z-index: 100;
+  top: 40rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-nav{
+  display: flex;
+  gap: 51rem;
+}
+
+.header__menu-nav-list{
+  display: flex;
+  gap: 35rem;
+}
+
+.header__menu-user{
+  display: flex;
+  gap: 30rem;
+}

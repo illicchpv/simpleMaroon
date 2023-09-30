@@ -15,273 +15,294 @@
 </head>
 
 <body>
-  <header>
+  <div class="d1-block">
     <div class="container">
-      <h1>Test header block  Changed! </h1>
-      <h1>Test header block  Changed! </h1>
-    </div>
-  </header>
+      <header class="header">
+        <div class="header__menu">
+          <a class="header__menu-img" href="#"><img src="./assets/icons/logo.svg" alt="MAROON logo"></a>
 
-  <main>
-    <div class="container">
-      <h1>Test main block</h1>
-    </div>
+          <nav class="header__menu-nav">
+            <ul class="header__menu-nav-list">
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">О&nbsp;нас</a></li>
+              <li><a href="#">Магазины</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
 
-    <!--  about  -->
-    <div class="container">
-      <section class="about">
-        <div class="about__image-block">
-          <img src="./assets/img/facial-care.jpg" alt="">
-          <div class="about__link">
-            <p>Уход для лица</p>
-            <a href="#"><img src="./assets/icons/arr-right.svg" alt=""></a>
+            <div class="header__menu-user">
+              <a href=""><img src="./assets/icons/user.svg" alt=""></a>
+              <a href=""><img src="./assets/icons/lock.svg" alt=""></a>
+            </div>
+          </nav>
+
+        </div>
+    </div>
+    </header>
+
+    <main>
+      <!--  about  -->
+      <div class="container-ex container-ex_about">
+        <section class="about">
+          <div class="about__image-block">
+            <img src="./assets/img/facial-care.jpg" alt="">
+            <div class="about__link">
+              <p>Уход для лица</p>
+              <a href="#"><img src="./assets/icons/arr-right.svg" alt=""></a>
+            </div>
           </div>
-        </div>
-        <div class="about__text-block">
-          <h1>MAROON</h1>
-          <p>
-            Натуральная косметика<br>
-            для бережного ухода за кожей
-          </p>
-          <a class="button-link button-link_about" href="">Подробнее</a>
-        </div>
-        <div class="about__image-block">
-          <img src="./assets/img/body-care.jpg" alt="">
-          <div class="about__link">
-            <p>Уход для тела</p>
-            <a href="#"><img src="./assets/icons/arr-right.svg" alt=""></a>
+          <div class="about__text-block">
+            <h1>MAROON</h1>
+            <p>
+              Натуральная косметика<br>
+              для бережного ухода за кожей
+            </p>
+            <a class="button-link button-link_about" href="">Подробнее</a>
           </div>
-        </div>
-      </section>
-    </div>
+          <div class="about__image-block">
+            <img src="./assets/img/body-care.jpg" alt="">
+            <div class="about__link">
+              <p>Уход для тела</p>
+              <a href="#"><img src="./assets/icons/arr-right.svg" alt=""></a>
+            </div>
+          </div>
+        </section>
+      </div>
 
-    <!-- best-gallery   -->
-    <div class="container">
-      <section class="best-gallery">
-        <div class="best-gallery__left-block">
-          <h2>Бестселлеры</h2>
-          <p>
-            Легендарные продукты,
-            завоевавшие любовь
-            наших клиентов
-          </p>
-          <a class="button-link button-link_best-gallery" href="">Смотреть все</a>
-        </div>
+      <!-- best-gallery   -->
+      <div class="container">
+        <section class="best-gallery">
+          <div class="best-gallery__left-block">
+            <h2>Бестселлеры</h2>
+            <p>
+              Легендарные продукты,
+              завоевавшие любовь
+              наших клиентов
+            </p>
+            <a class="button-link button-link_best-gallery" href="">Смотреть все</a>
+          </div>
 
-        <div class="best-gallery__slider-container">
-          <div class="swiper mySwiper1">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_1.jpg);">
-                <h3>High</h3>
-                <p>крем для лица</p>
-                <a href="#">Подробнее</a>
-              </div>
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_2.jpg);">
-                <h3>Rest</h3>
-                <p>минеральная пудра</p>
-                <a href="#">Подробнее</a>
-              </div>
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_3.jpg);">
-                <h3>Rose</h3>
-                <p>крем для лица</p>
-                <a href="#">Подробнее</a>
-              </div>
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_4.jpg);">
-                <h3>Milk</h3>
-                <p>масло для тела</p>
-                <a href="#">Подробнее</a>
-              </div>
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_1.jpg);">
-                <h3>High</h3>
-                <p>крем для лица</p>
-                <a href="#">Подробнее</a>
-              </div>
-              <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_2.jpg);">
-                <h3>Rest</h3>
-                <p>минеральная пудра</p>
-                <a href="#">Подробнее</a>
+          <div class="best-gallery__slider-container">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_1.jpg);">
+                  <h3>High</h3>
+                  <p>крем для лица</p>
+                  <a href="#">Подробнее</a>
+                </div>
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_2.jpg);">
+                  <h3>Rest</h3>
+                  <p>минеральная пудра</p>
+                  <a href="#">Подробнее</a>
+                </div>
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_3.jpg);">
+                  <h3>Rose</h3>
+                  <p>крем для лица</p>
+                  <a href="#">Подробнее</a>
+                </div>
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_4.jpg);">
+                  <h3>Milk</h3>
+                  <p>масло для тела</p>
+                  <a href="#">Подробнее</a>
+                </div>
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_1.jpg);">
+                  <h3>High</h3>
+                  <p>крем для лица</p>
+                  <a href="#">Подробнее</a>
+                </div>
+                <div class="swiper-slide best-gallery__slid" style="background-image: url(assets/img/galery/c_2.jpg);">
+                  <h3>Rest</h3>
+                  <p>минеральная пудра</p>
+                  <a href="#">Подробнее</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="arrows">
-          <a href="#"><img class="arr-left" src="./assets/icons/arr-left.svg" alt=""></a>
-          <a href="#"><img class="arr-right" src="./assets/icons/arr-right.svg" alt=""></a>
-        </div>
-
-      </section>
-    </div>
-
-    <!-- banner spring-together -->
-    <div class="container-ex container-ex_spring-together">
-      <section class="spring-together">
-        <div class="spring-together__right-block">
-          <div class="spring-together__right-block-container">
-            <h2>
-              Встречайте весну<br>
-              вместе с нами
-            </h2>
-            <p>
-              Попробуйте новую коллекцию ухаживающих средств для лица с SPF защитой
-            </p>
-            <a class="button-link button-link_spring-together" href="">Подробнее</a>
+          <div class="arrows">
+            <a href="#"><img class="arr-left" src="./assets/icons/arr-left.svg" alt=""></a>
+            <a href="#"><img class="arr-right" src="./assets/icons/arr-right.svg" alt=""></a>
           </div>
-        </div>
-      </section>
-    </div>
 
-    <!-- Individual care -->
-    <div class="container">
-      <section class="icare">
+        </section>
+      </div>
 
-        <div class="icare__left-bg">
+      <!-- banner spring-together -->
+      <div class="container-ex container-ex_spring-together">
+        <section class="spring-together">
+          <div class="spring-together__right-block">
+            <div class="spring-together__right-block-container">
+              <h2>
+                Встречайте весну<br>
+                вместе с нами
+              </h2>
+              <p>
+                Попробуйте новую коллекцию ухаживающих средств для лица с SPF защитой
+              </p>
+              <a class="button-link button-link_spring-together" href="">Подробнее</a>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        </div>
+      <!-- Individual care -->
+      <div class="container">
+        <section class="icare">
 
-        <div class="icare__inner-box">
-          <div class="icare__inner-left">
-            <h2>Индивидуальный уход</h2>
-
-            <p>
-              Не всегда очевидно, какие элементы и минералы необходимы коже,         а многочисленные эксперименты     с разными средствами только ухудшают ее качество.
-              <br>
-              <br>Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место жительства и другие факторы.
-            </p>
-
-            <a class="button-link button-link_icare" href="">Наша история</a>
+          <div class="icare__left-bg">
 
           </div>
 
-          <div class="icare__inner-right">
+          <div class="icare__inner-box">
+            <div class="icare__inner-left">
+              <h2>Индивидуальный уход</h2>
 
+              <p>
+                Не всегда очевидно, какие элементы и минералы необходимы коже, а многочисленные эксперименты с разными
+                средствами только ухудшают ее качество.
+                <br>
+                <br>Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место
+                жительства и другие факторы.
+              </p>
+
+              <a class="button-link button-link_icare" href="">Наша история</a>
+
+            </div>
+
+            <div class="icare__inner-right">
+
+            </div>
           </div>
-        </div>
 
-      </section>
-    </div>
+        </section>
+      </div>
 
 
-    <!-- banner-skin-care     -->
-    <div class="container-ex container-ex_skin-care">
-      <section class="skin-care">
-        <p class="skin-care__text">
-          “Мы стремимся сделать уход за кожей доступным
-          <br/>и приятным ритуалом для всех, кто хочет
-          <br/>заботиться о себе и своем теле”
-        </p>
-
-        <a class="button-link button-link_skin-care" href="">Наша история</a>
-
-      </section>
-    </div>
-
-    <div class="container">
-      <section class="join-us">
-        <div class="join-us__images">
-          <img class="join-us__img" src="./assets/img/11.jpg" alt="">
-          <img class="join-us__img" src="./assets/img/12.jpg" alt="">
-          <img class="join-us__img" src="./assets/img/13.jpg" alt="">
-          <img class="join-us__img" src="./assets/img/21.jpg" alt="">
-          <img class="join-us__img" src="./assets/img/22.jpg" alt="">
-          <img class="join-us__img" src="./assets/img/23.jpg" alt="">
-        </div>
-
-        <div class="join-us__right-box">
-          <h2>Присоединяйтесь к нам</h2>
-          <p>
-            Подпишитесь на наш аккаунт @marooncare
-            и&nbsp;узнавайте о&nbsp;новиках и&nbsp;акциях первыми
+      <!-- banner-skin-care     -->
+      <div class="container-ex container-ex_skin-care">
+        <section class="skin-care">
+          <p class="skin-care__text">
+            “Мы стремимся сделать уход за кожей доступным
+            <br />и приятным ритуалом для всех, кто хочет
+            <br />заботиться о себе и своем теле”
           </p>
-          <a href="" class="button-link button-link_join-us">Подписаться</a>
-        </div>
-      </section>
-    </div>
 
-    <div class="container">
-      <section class="contacts">
+          <a class="button-link button-link_skin-care" href="">Наша история</a>
 
-        <div class="contacts__left-bg">
+        </section>
+      </div>
 
-        </div>
+      <div class="container">
+        <section class="join-us">
+          <div class="join-us__images">
+            <img class="join-us__img" src="./assets/img/11.jpg" alt="">
+            <img class="join-us__img" src="./assets/img/12.jpg" alt="">
+            <img class="join-us__img" src="./assets/img/13.jpg" alt="">
+            <img class="join-us__img" src="./assets/img/21.jpg" alt="">
+            <img class="join-us__img" src="./assets/img/22.jpg" alt="">
+            <img class="join-us__img" src="./assets/img/23.jpg" alt="">
+          </div>
 
-        <div class="contacts__inner-box">
-          <div class="contacts__inner-left">
-            <h2>Контакты</h2>
-
-            <h3>Адрес</h3>
+          <div class="join-us__right-box">
+            <h2>Присоединяйтесь к нам</h2>
             <p>
-              Санкт-Петербург,<br>
-              ул. Большая Конюшенная,&nbsp;19
+              Подпишитесь на наш аккаунт @marooncare
+              и&nbsp;узнавайте о&nbsp;новиках и&nbsp;акциях первыми
             </p>
+            <a href="" class="button-link button-link_join-us">Подписаться</a>
+          </div>
+        </section>
+      </div>
 
-            <h3>Телефон</h3>
-            <p>
-              +7 (923) 888-90-60
-            </p>
+      <div class="container">
+        <section class="contacts">
 
-            <h3>E-mail</h3>
-            <p>
-              info@maroon.ru
-            </p>
+          <div class="contacts__left-bg">
 
-            <ul class="contacts__social">
-              <li>
-                <a href=""><img src="./assets/icons/facebook.svg" alt=""></a>
-              </li>
-              <li>
-                <a href=""><img src="./assets/icons/instagram.svg" alt=""></a>
-              </li>
-              <li>
-                <a href=""><img src="./assets/icons/twitter.svg" alt=""></a>
-              </li>
+          </div>
+
+          <div class="contacts__inner-box">
+            <div class="contacts__inner-left">
+              <h2>Контакты</h2>
+
+              <h3>Адрес</h3>
+              <p>
+                Санкт-Петербург,<br>
+                ул. Большая Конюшенная,&nbsp;19
+              </p>
+
+              <h3>Телефон</h3>
+              <p>
+                +7 (923) 888-90-60
+              </p>
+
+              <h3>E-mail</h3>
+              <p>
+                info@maroon.ru
+              </p>
+
+              <ul class="contacts__social">
+                <li>
+                  <a href=""><img src="./assets/icons/facebook.svg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./assets/icons/instagram.svg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./assets/icons/twitter.svg" alt=""></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contacts__inner-right">
+
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__menu">
+          <nav class="footer__menu-nav">
+            <a class="footer__menu-img" href="#"><img src="./assets/icons/logo.svg" alt="MAROON logo"></a>
+
+            <ul class="footer__menu-nav-list">
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">О&nbsp;нас</a></li>
+              <li><a href="#">Магазины</a></li>
+              <li><a href="#">Контакты</a></li>
             </ul>
+          </nav>
+
+          <div class="footer__menu-social">
+            <a href=""><img src="./assets/icons/facebook.svg" alt=""></a>
+            <a href=""><img src="./assets/icons/instagram.svg" alt=""></a>
+            <a href=""><img src="./assets/icons/twitter.svg" alt=""></a>
           </div>
-
-          <div class="contacts__inner-right">
-
-          </div>
-        </div>
-
-      </section>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__menu">
-        <nav class="footer__menu-nav">
-          <a class="footer__menu-img" href="#"><img src="./assets/icons/logo.svg" alt="MAROON logo"></a>
-
-          <ul class="footer__menu-nav-list">
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">О&nbsp;нас</a></li>
-            <li><a href="#">Магазины</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
-
-        <div class="footer__menu-social">
-          <a href=""><img src="./assets/icons/facebook.svg" alt=""></a>
-          <a href=""><img src="./assets/icons/instagram.svg" alt=""></a>
-          <a href=""><img src="./assets/icons/twitter.svg" alt=""></a>
         </div>
       </div>
-    </div>
 
-    <div class="line line_footer"></div>
+      <div class="line line_footer"></div>
 
-    <div class="container">
-      <div class="bottom-line">
-        <div class="bottom-line__copyright">
-          Maroon <img class="circle-c" src="./assets/icons/circle-c.svg" alt=""> 2020 Все права защищены
-        </div>
-        <div class="bottom-line__privacy-policy">
-          Политика конфиденциальности
+      <div class="container">
+        <div class="bottom-line">
+          <div class="bottom-line__copyright">
+            Maroon <img class="circle-c" src="./assets/icons/circle-c.svg" alt=""> 2020 Все права защищены
+          </div>
+          <div class="bottom-line__privacy-policy">
+            Политика конфиденциальности
+          </div>
         </div>
       </div>
-    </div>
 
-  </footer>
+    </footer>
+  </div>
+  <div class="d2-block">
+    <h1>Извините,
+      <br> разрешение экрана &lt; 500 не поддержано
+    </h1>
+  </div>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
